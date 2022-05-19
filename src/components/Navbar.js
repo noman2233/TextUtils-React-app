@@ -22,7 +22,7 @@ export default function Navbar(props) {
         <div className="d-flex mx-5">
         <div className="color-1 mx-2"><button onClick={props.toggleMode1}  className="btn btn-primary">Purple</button> </div>
         <div className="color-1 mx-2"><button onClick={props.toggleMode2}  className="btn btn-info">Orange</button> </div>
-        <div className="color-1 mx-2"><button onClick={props.toggleMode3}  className="btn btn-primary">Green</button> </div>
+        <div className="color-1 mx-2"><button onClick={props.toggleMode3}  className="btn btn-success">Green</button> </div>
 
         </div>
 
